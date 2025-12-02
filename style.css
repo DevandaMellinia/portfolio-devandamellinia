@@ -1,7 +1,14 @@
-/* General Styles */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important; 
+    position: relative; 
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
     background-color: #f8f9fa;
 }
 
@@ -407,6 +414,9 @@ a {
     color: rgba(255,255,255,0.2);
 }
 
+.timeline-section, .hero-section, main {
+    overflow-x: hidden; 
+}
 
 .timeline-section {
     position: relative;
